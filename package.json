@@ -1,0 +1,24 @@
+{
+  "name": "duplicated-install",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "lint": "neutrino lint",
+    "test": "neutrino test"
+  },
+  "devDependencies": {
+    "@neutrinojs/jest": "^8.0.15",
+    "@neutrinojs/react-components": "^8.0.15",
+    "@neutrinojs/standardjs": "^8.0.15",
+    "neutrino": "^8.0.15",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.0"
+  }
+}
